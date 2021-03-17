@@ -58,7 +58,24 @@
         <!-- START LEFT COLUMN -->
         <section class="fullwidth"> 
         <h2 class="subheader">Contact Keith</h2>
-            <p>Watch the supporting video to create the content for this page.</p>
+            <?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
+
+        include 'includes/contact_include.php'; #site keys & code here
+    
+        $toAddress = "keithsalo@gmail.com";  //place your/your client's email address here
+        $toName = "Keith Salo"; //place your client's name here
+        $website = "Amber Davenport Design";  //place NAME of your client's website
+
+        echo loadContact('simple.php');#demonstrates a simple contact form
+        // echo loadContact('multiple.php');#demonstrates multiple form elements
+
+	?>
              
            
         </section>

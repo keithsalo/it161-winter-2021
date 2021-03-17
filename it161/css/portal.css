@@ -30,6 +30,9 @@ p {
     margin: 1em 1em;
 }
 
+.sunset {
+    object-fit: fill;
+}
 
 h2,h3 {
     font-weight: normal;
