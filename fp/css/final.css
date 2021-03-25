@@ -1,0 +1,84 @@
+/* Global rules */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html {
+    background-color: ghostwhite;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5em;
+    
+    
+}
+
+h1 a {
+   color: black; 
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+}
+
+header {
+    height: 75px;
+}
+
+
+
+
+
+
+.container {
+    
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.flex-item {
+    width: 400px;
+    margin-bottom: 80px;
+
+}
+
+ .nav ul li{
+     float: right;
+     margin: 2px;
+	 width: 150px;
+     display: flex;
+     padding: 2px;
+     
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+
+/* MOBILE STYLES */
+
+@media all and (max-width:600px) {
+    
+    main { 
+        width: 100%;
+    }
+    
+    section {
+        float: none;
+        width: 100%;        
+}
+
+    aside {
+        float: none;
+        width: 100%;     
+    }
+    
+}
